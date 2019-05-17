@@ -28,10 +28,10 @@ namespace WebASPX
             string filePath = "D:\\TempFile\\" + uniqeFileName;
             FileUpload1.SaveAs(filePath);
 
-            readExcel(filePath);
+            readExcelXlsx(filePath);
         }
 
-        private void readExcel(string filePath)
+        private void readExcelXlsx(string filePath)
         {
             //create a list to hold all the values
             List<string> excelData = new List<string>();
