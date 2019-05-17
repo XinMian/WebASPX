@@ -13,5 +13,8 @@
     <p>
         You can also find <a href="http://go.microsoft.com/fwlink/?LinkID=152368&amp;clcid=0x409"
             title="MSDN ASP.NET Docs">documentation on ASP.NET at MSDN</a>.
+        
     </p>
+    <asp:FileUpload ID="FileUpload1" runat="server" />
+    <asp:Button ID="clickMeBtn" runat="server" Text="Upload" onclick="OnClickClickMeButton" />
 </asp:Content>

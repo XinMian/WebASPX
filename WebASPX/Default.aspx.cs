@@ -13,5 +13,13 @@ namespace WebASPX
         {
 
         }
+
+        protected void OnClickClickMeButton(object sender, EventArgs e)
+        {
+            string uniqeFileName = Guid.NewGuid().ToString() + ".xlsx";
+            FileUpload1.SaveAs("D:\\TempFile\\" + uniqeFileName);
+        }
+
+
     }
 }
